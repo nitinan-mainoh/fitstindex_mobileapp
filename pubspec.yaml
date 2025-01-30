@@ -1,0 +1,41 @@
+name: fitstindex_mobileapp
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  event_bus: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  font_awesome_flutter: ^10.8.0
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  salomon_bottom_bar: ^3.3.2
+  shared_preferences: ^2.3.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/cover/
+    - assets/images/profile/
+    - assets/icon/
